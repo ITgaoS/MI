@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Login Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Novus Admin Panel Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<link href="/static/backstage/css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="/static/backstage/css/style.css" rel='stylesheet' type='text/css' />
+<link href="/static/backstage/css/font-awesome.css" rel="stylesheet">
+<script src="/static/backstage/js/jquery-1.11.1.min.js"></script>
+<script src="/static/backstage/js/modernizr.custom.js"></script>
+<link href="/static/backstage/css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="/static/backstage/js/wow.min.js"></script>
+<script src="/static/backstage/js/metisMenu.min.js"></script>
+<script src="/static/backstage/js/custom.js"></script>
+<link href="/static/backstage/css/custom.css" rel="stylesheet">
+<!--//Metis Menu -->
+</head> 
+<body>
+	<div class="main-content">
+		<div id="page-wrapper" >
+			<div class="main-page login-page ">
+				<h3 class="title1">登录</h3>
+				<div class="widget-shadow" style="width: 80%; margin: 0 auto">
+					<div class="login-top">
+						<h4>欢迎来到小米商城后台管理系统 ! <br> 非会员点击? <a href="signup.html">  注册 »</a> </h4>
+					</div>
+					<div class="login-body">
+						<form method="post">
+                            {% csrf_token %}
+							<input type="text" class="user" name="email" placeholder="邮箱" required="">
+							<input type="password" name="password" class="lock" placeholder="密码">
+							<h4>{{ error }}</h4>
+                            <input type="submit" name="Sign In" value="登录">
+							<div class="forgot-grid">
+								<div class="forgot">
+									<a href="/Backstage/forget_password/">忘记密码?</a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</form>
+					</div>
+				</div>
+
+				<div class="login-page-bottom">
+					<h5> - OR -</h5>
+					<div class="social-btn"><a href="#"><i class="fa fa-facebook"></i><i>Sign In with Facebook</i></a></div>
+					<div class="social-btn sb-two"><a href="#"><i class="fa fa-twitter"></i><i>Sign In with Twitter</i></a></div>
+				</div>
+			</div>
+		</div>
+		<!--footer-->
+        <!--//footer-->
+	</div>
+    <script src="/static/backstage/js/classie.js"></script>
+   <script src="/static/backstage/js/bootstrap.js"> </script>
+</body>
+</html>

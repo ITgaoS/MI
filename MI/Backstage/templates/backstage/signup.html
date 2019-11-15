@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Login Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Novus Admin Panel Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<link href="../../static/backstage/css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="../../static/backstage/css/style.css" rel='stylesheet' type='text/css' />
+<link href="../../static/backstage/css/font-awesome.css" rel="stylesheet">
+<script src="../../static/backstage/js/jquery-1.11.1.min.js"></script>
+<script src="../../static/backstage/js/modernizr.custom.js"></script>
+<link href="../../static/backstage/css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="../../static/backstage/js/wow.min.js"></script>
+<script src="../../static/backstage/js/metisMenu.min.js"></script>
+<script src="../../static/backstage/js/custom.js"></script>
+<link href="../../static/backstage/css/custom.css" rel="stylesheet">
+<!--//Metis Menu -->
+</head>
+<body>
+	<div id="page-wrapper">
+			<div class="main-page signup-page">
+				<h3 class="title1">注册</h3>
+				<div class="sign-up-row widget-shadow" style=" width:50%;margin:0 auto">
+					<h5>个人信息 :</h5>
+                    <form method="post">
+                        {% csrf_token %}
+					<div class="sign-u">
+                    <div class="sign-up1"><h4>用户名 :</h4></div>
+						<div class="sign-up2"><input type="text" name="username" required></div><div class="clearfix"> </div>
+						<div class="sign-up1"><h4>邮箱 :</h4></div>
+						<div class="sign-up2"><input name="email" type="text" required></div>
+						<div class="clearfix"> </div>
+						<div class="sign-up1"><h4>性别 :</h4></div>
+						<div class="sign-up2">
+							<label>
+								<input type="radio" name="gender" value="1" required>
+								男
+							</label>
+							<label>
+								<input type="radio" name="gender" value="0" required>
+								女
+							</label>
+						</div>
+						<div class="clearfix"> </div>
+						<div class="sign-up1"><h4>密码 :</h4></div>
+						<div class="sign-up2"><input name="password" type="password" required></div>
+						<div class="clearfix"> </div>
+
+					    <div class="sub_home" >
+                            <div class="clearfix"> </div>
+                        <input type="submit" value="Submit" style="width: 100%;margin: 0 auto">
+						<div class="clearfix"> </div>
+					</div>
+                    </div>
+                </form>
+			</div>
+    <script src="../../static/backstage/js/classie.js"></script>
+   <script src="../../static/backstage/js/bootstrap.js"> </script>
+</body>
+</html>
+
+

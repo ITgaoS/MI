@@ -1,0 +1,72 @@
+{% extends "backstage/base.html" %}
+{% block title %}
+个人信息
+{% endblock %}
+{% load  back_tags %}
+{% block contect %}
+	<div class="col-md-4 profile widget-shadow" style="width:90%">
+						<h4 class="title3">个人信息</h4>
+						<div class="profile-top">
+							<img style="width: 150px ;height: 150px" src="/static/{{ user.picture }}" alt="">
+							<h4>{{ user.username }}</h4>
+							<h5><a  style="color: white"href="/Backstage/edit_self_info/">编辑资料</a></h5>
+						</div>
+						<div class="profile-text">
+							<div class="profile-row">
+
+								<div  class="profile-right">
+									<h4>{{ user.email }} </h4>
+									<p>邮箱</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="profile-row row-middle">
+								<div class="profile-right">
+									<h4>{{ user.phone }}</h4>
+									<p>电话</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="profile-row">
+								<div class="profile-right">
+									<h4>{{ user.address }}</h4>
+									<p>地址</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="profile-row row-middle">
+							<div class="profile-row">
+								<div class="profile-right">
+									<h4>{{ user.gender | sex }}</h4>
+									<p>性别</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+                            <div class="profile-row">
+								<div class="profile-right">
+									<h4>{{ user.age }}</h4>
+									<p>年龄</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+
+					</div>
+        <div class="profile-btm">
+							<ul>
+								<li>
+									<h4>420</h4>
+									<h5>Following</h5>
+								</li>
+								<li>
+									<h4>100</h4>
+									<h5>Likes</h5>
+								</li>
+								<li>
+									<h4>60</h4>
+									<h5>Shares</h5>
+								</li>
+							</ul>
+						</div>
+    </div>
+{% endblock %}

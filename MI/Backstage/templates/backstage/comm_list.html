@@ -1,0 +1,55 @@
+{% extends "backstage/base.html" %}
+{% block title %}
+    首页
+{% endblock %}
+
+
+{% block contect %}
+    <div class="bs-example widget-shadow" data-example-id="hoverable-table">
+        <h4>Hover Rows Table:</h4>
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th>商品图片</th>
+                <th>商品名称</th>
+                <th>商品价格</th>
+                <th>商品详情</th>
+                <th>商品状态</th>
+            </tr>
+            </thead>
+            <tbody>
+
+            {% for comm in page_list %}
+                <tr>
+                    <td><a href=""><img style="width: 50px;height: 50px" src="/static/{{ comm.picture }}" alt=""></a>
+                    </td>
+                    <td>{{ comm.name }}</td>
+                    <td>{{ comm.price }}</td>
+                    <td>{{ comm.specification }}</td>
+                    <td>
+                        {% if comm.state %}
+
+                            <a href="/Backstage/comm_list/?page={{ number }}&status=down&id={{ comm.id }}" class="btn btn-danger btn-lg">下线
+                            </a>
+
+                        {% else %}
+                            <a href="/Backstage/comm_list/?page={{ number }}&status=up&id={{ comm.id }}" class="btn btn-primary btn-lg">上线
+                            </a>
+                        {% endif %}
+
+                </tr>
+            {% endfor %}
+
+
+            </tbody>
+        </table>
+        <ul class="pagination pagination-lg">
+            <li><a href="/Backstage/comm_list/" aria-label="Previous"><span aria-hidden="true">首页</span></a></li>
+            {% for page in page_range %}
+                <li><a href="/Backstage/comm_list/?page={{ page }}">{{ page }}</a></li>
+            {% endfor %}
+
+            <li><a href="/Backstage/comm_list/?page={{ num }}" aria-label="Next"><span aria-hidden="true">尾页</span></a></li>
+        </ul>
+    </div>
+{% endblock %}
