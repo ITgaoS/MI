@@ -1,10 +1,10 @@
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect,HttpResponse
 from django.core.paginator import Paginator
 from django.shortcuts import render
 from Backstage.models import *
 from Muser.models import *
 
-import hashlib
+import hashlib,re
 def valid_user(email):
     try:
         user=User.objects.get(email=email)
@@ -116,7 +116,7 @@ def add_comm(request):
         color=request.POST.get("color")
         type=request.POST.get("type")
         picture=request.FILES.get("picture")
-        comm=Commodity()
+        comm=Goods()
         comm.name=name
         comm.price=price
         comm.specification=specification
@@ -167,7 +167,7 @@ def comm_list(request):
     status=request.GET.get("status")
     number=request.GET.get("page",1)
     try:
-        comm=Commodity.objects.get(id=id)
+        comm=Goods.objects.get(id=id)
         if status=="up":
             comm.state=1
         elif status=="down":
@@ -176,9 +176,59 @@ def comm_list(request):
     except:
         pass
 
-    comm_list=Commodity.objects.all().order_by("-state")
-    page_data=Paginator(comm_list,2)
+    comm_list=Goods.objects.all().order_by("-state")
+    page_data=Paginator(comm_list,20)
     page_list=page_data.page(number)
-    page_range=list(page_data.page_range)
-    num=len(page_range)
+    page_range = list(page_data.page_range)
+    num = len(page_range)
+    if int(number)<2:
+        page_range=[1,2,3,4,5]
+    elif int(number)>=3:
+        page_range=page_range[int(number)-3:int(number)+3]
+    elif int(number)+4==num:
+        page_range=page_range[-6:]
+
+    print(page_range)
     return render(request,"backstage/comm_list.html",locals())
+
+
+
+
+def add(request):
+    C=Goods.objects.all()
+
+    print(C)
+    for i in C :
+        i.picture=i.picture.url.replace("/media","")
+        print(i.picture)
+        i.save()
+    # import random
+    # import json
+    # with open(r'E:\python_lrean\Django\MI\MI\Backstage\data3.json','r',encoding="utf-8")as f:
+    #     data=f.read()
+    # data=json.loads(data)
+    # i=1
+    # for da in data:
+    #
+    #     for  d in da:
+    #         comm=Goods()
+    #         comm.name=d["title"]
+    #         comm.price=d['price']
+    #
+    #         comm.specification=d['title']
+    #         comm.state=1
+    #         comm.vers=d['title']
+    #         comm.picture='backstage/images'+d['img'].split('/')[-1]
+    #         comm.type=CommodityType.objects.get(id=i+1)
+    #         pattern = re.compile(' ([\u4e00-\u9fa5]*?["红"|"黑"|"白"|"蓝"|"橙"|"绿"|"紫"|"靑"|"黄"|"色"])')
+    #         try:
+    #             colors=pattern.findall(d['title'])[0]
+    #             comm.color = colors
+    #         except:
+    #             comm.color='标准色'
+    #         print(comm.color)
+    #         comm.save()
+    #     i+=1
+
+
+    return HttpResponse('hello')

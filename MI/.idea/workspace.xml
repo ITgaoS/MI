@@ -2,20 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50c1311a-75d2-42bc-b812-2fbf8e075766" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Backstage/static/backstage/images/100.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backstage/templates/backstage/add_comm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backstage/templates/backstage/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backstage/templates/backstage/change_password.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backstage/templates/backstage/comm_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backstage/templates/backstage/edit_self_info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backstage/templates/backstage/forget_password.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backstage/templates/backstage/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backstage/templates/backstage/self_info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backstage/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backstage/templatetags/back_tags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backstage/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/backstage/images/100.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/backstage/images/TV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backstage/data2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backstage/data3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backstage/xiaomishouye.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blient/templates/blient/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blient/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9a93bc07-d960-48e2-99f5-8a0cfc82af5b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9a93bc07-d960-48e2-99f5-8a0cfc82af5b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backstage/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backstage/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backstage/migrations/0002_auto_20191107_1941.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backstage/migrations/0002_auto_20191107_1941.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backstage/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backstage/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backstage/templates/backstage/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Backstage/templates/backstage/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backstage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backstage/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backstage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backstage/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MI/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MI/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MI/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MI/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muser/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Muser/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muser/migrations/0002_auto_20191106_2300.py" beforeDir="false" afterPath="$PROJECT_DIR$/Muser/migrations/0002_auto_20191106_2300.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muser/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Muser/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muser/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Muser/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,76 +68,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Backstage/urls.py">
+        <entry file="file://$PROJECT_DIR$/Blient/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Backstage/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4752">
-              <caret line="182" column="23" selection-start-line="182" selection-start-column="23" selection-end-line="182" selection-end-column="23" />
+            <state relative-caret-position="54">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
               <folding>
-                <element signature="e#0#44#0" expanded="true" />
+                <element signature="e#0#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/ProgramData/Anaconda3/envs/DjangoPath/Lib/site-packages/django/utils/deprecation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2403">
-              <caret line="90" selection-start-line="90" selection-end-line="90" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/ProgramData/Anaconda3/envs/DjangoPath/Lib/site-packages/django/core/handlers/exception.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Backstage/templates/backstage/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5535">
-              <caret line="205" column="10" selection-start-line="205" selection-start-column="10" selection-end-line="205" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Backstage/templates/backstage/add_comm.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Backstage/templates/backstage/comm_list.html">
+        <entry file="file://$PROJECT_DIR$/Blient/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="51" column="58" selection-start-line="51" selection-start-column="58" selection-end-line="51" selection-end-column="58" />
+            <state relative-caret-position="162">
+              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Backstage/models.py">
+        <entry file="file://$PROJECT_DIR$/Blient/templates/blient/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+            <state relative-caret-position="270">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MI/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3537">
+              <caret line="131" column="29" selection-start-line="131" selection-start-column="29" selection-end-line="131" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MI/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -141,8 +120,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -157,7 +136,16 @@
       <find>col-md-6 validation-grids widget-shadow</find>
       <find>class=&quot;col-md-4 profile widget-shadow&quot;</find>
       <find>../..</find>
+      <find>NOVUS</find>
+      <find>个人信息</find>
+      <find>Tables</find>
+      <find>Commodity</find>
+      <find>./image</find>
     </findStrings>
+    <replaceStrings>
+      <replace>../static/blient/images</replace>
+      <replace>./images</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -169,15 +157,12 @@
         <option value="$PROJECT_DIR$/backstage/templates/login.html" />
         <option value="$PROJECT_DIR$/backstage/templates/signup.html" />
         <option value="$PROJECT_DIR$/backstage/views.py" />
-        <option value="$PROJECT_DIR$/MI/urls.py" />
         <option value="$PROJECT_DIR$/Backstage/templates/backstage/signup.html" />
         <option value="$PROJECT_DIR$/Backstage/static/backstage/tables.html" />
         <option value="$PROJECT_DIR$/Backstage/static/backstage/base.html" />
         <option value="$PROJECT_DIR$/Backstage/templates/backstage/index.html" />
         <option value="$PROJECT_DIR$/Muser/models.py" />
-        <option value="$PROJECT_DIR$/MI/settings.py" />
         <option value="$PROJECT_DIR$/Backstage/templatetags/back_tags.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/Backstage/templates/backstage/change.html" />
         <option value="$PROJECT_DIR$/Backstage/static/backstage/css/style.css" />
         <option value="$PROJECT_DIR$/Backstage/templates/backstage/edit_self_info.html" />
@@ -186,29 +171,27 @@
         <option value="$PROJECT_DIR$/Backstage/templates/backstage/change_password.html" />
         <option value="$PROJECT_DIR$/Backstage/templates/backstage/forget_password.html" />
         <option value="$PROJECT_DIR$/Backstage/templates/backstage/add_comm.html" />
-        <option value="$PROJECT_DIR$/Backstage/models.py" />
+        <option value="$PROJECT_DIR$/Backstage/templates/backstage/comm_list.html" />
         <option value="$PROJECT_DIR$/Backstage/templates/backstage/base.html" />
         <option value="$PROJECT_DIR$/Backstage/urls.py" />
+        <option value="$PROJECT_DIR$/Backstage/models.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/Muser/tests.py" />
         <option value="$PROJECT_DIR$/Backstage/views.py" />
-        <option value="$PROJECT_DIR$/Backstage/templates/backstage/comm_list.html" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/MI.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/dataSources.xml" />
+        <option value="$PROJECT_DIR$/Blient/url.py" />
+        <option value="$PROJECT_DIR$/MI/urls.py" />
+        <option value="$PROJECT_DIR$/Blient/static/blient/login.html" />
+        <option value="$PROJECT_DIR$/Blient/templates/login.html" />
+        <option value="$PROJECT_DIR$/MI/settings.py" />
+        <option value="$PROJECT_DIR$/Blient/urls.py" />
+        <option value="$PROJECT_DIR$/Blient/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-32" />
-    <option name="y" value="22" />
-    <option name="width" value="1363" />
+    <option name="x" value="-303" />
+    <option name="y" value="102" />
+    <option name="width" value="1386" />
     <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -217,7 +200,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,59 +210,60 @@
             <path>
               <item name="MI" type="b2602c69:ProjectViewProjectNode" />
               <item name="MI" type="462c0819:PsiDirectoryNode" />
-              <item name="Backstage" type="462c0819:PsiDirectoryNode" />
+              <item name="Blient" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MI" type="b2602c69:ProjectViewProjectNode" />
               <item name="MI" type="462c0819:PsiDirectoryNode" />
-              <item name="Backstage" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MI" type="462c0819:PsiDirectoryNode" />
-              <item name="Backstage" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="backstage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MI" type="462c0819:PsiDirectoryNode" />
-              <item name="Backstage" type="462c0819:PsiDirectoryNode" />
-              <item name="templatetags" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MI" type="462c0819:PsiDirectoryNode" />
-              <item name="MI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MI" type="462c0819:PsiDirectoryNode" />
-              <item name="Muser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MI" type="462c0819:PsiDirectoryNode" />
+              <item name="Blient" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MI" type="b2602c69:ProjectViewProjectNode" />
               <item name="MI" type="462c0819:PsiDirectoryNode" />
+              <item name="Blient" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="backstage" type="462c0819:PsiDirectoryNode" />
+              <item name="blient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MI" type="462c0819:PsiDirectoryNode" />
+              <item name="Blient" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="blient" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MI" type="462c0819:PsiDirectoryNode" />
+              <item name="Blient" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MI" type="462c0819:PsiDirectoryNode" />
+              <item name="Blient" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="blient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MI" type="462c0819:PsiDirectoryNode" />
+              <item name="MI" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Flask/TestLou" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -293,16 +276,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\python_lrean\Django\MI\MI\Backstage\templates\backstage" />
-      <recent name="E:\python_lrean\Django\MI\MI\Backstage\static\backstage\images" />
-      <recent name="E:\python_lrean\Django\MI\MI\Backstage\static\backstage" />
-      <recent name="E:\python_lrean\Django\MI\MI\backstage\static\backstage\images" />
+      <recent name="E:\python_lrean\Django\MI\MI\Blient\static\blient" />
+      <recent name="E:\python_lrean\Django\MI\MI\Blient\static\blient\css" />
+      <recent name="E:\python_lrean\Django\MI\MI\Blient\templates" />
+      <recent name="E:\python_lrean\Django\MI\MI\Blient\static" />
+      <recent name="E:\python_lrean\Django\MI\MI\Backstage" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\python_lrean\Django\MI\MI\static\backstage\images" />
-      <recent name="E:\python_lrean\Django\MI\MI\Backstage\templates\backstage" />
-      <recent name="E:\python_lrean\Django\MI\MI\backstage\templates\backstage" />
-      <recent name="E:\python_lrean\Django\MI\MI\backstage\templates" />
+      <recent name="E:\python_lrean\Django\MI\MI\Blient\templates\blient" />
+      <recent name="E:\python_lrean\Django\MI\MI\Blient\templates" />
+      <recent name="E:\python_lrean\Django\MI\MI\Blient\static\blient" />
+      <recent name="E:\python_lrean\Django\MI\MI\Blient\static" />
+      <recent name="E:\python_lrean\Django\MI\MI\Backstage" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -317,7 +302,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django server.MI">
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Muser" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Muser/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Backstage" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Backstage/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="MI" type="Python.DjangoServer" factoryName="Django server">
       <module name="MI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -342,6 +371,12 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.tests" />
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -362,21 +397,28 @@
       <workItem from="1573518798079" duration="986000" />
       <workItem from="1573557603416" duration="13327000" />
       <workItem from="1573604787093" duration="79000" />
+      <workItem from="1575285889570" duration="8855000" />
+      <workItem from="1575334405542" duration="621000" />
+      <workItem from="1575631131989" duration="8701000" />
+      <workItem from="1575721331719" duration="1637000" />
+      <workItem from="1575723597465" duration="1636000" />
+      <workItem from="1575725264522" duration="2017000" />
+      <workItem from="1575785474374" duration="355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55595000" />
+    <option name="totallyTimeSpent" value="79417000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49312976" visible="true" weight="0.18078668" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49312976" visible="true" weight="0.1376702" />
       <window_info id="Structure" order="1" sideWeight="0.5065789" side_tool="true" weight="0.25565612" />
       <window_info id="Favorites" order="2" sideWeight="0.5068702" side_tool="true" weight="0.17805065" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.5581015" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8310709" weight="0.43206108" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.55726874" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8310709" weight="0.22352941" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7458522" weight="0.31908396" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -384,15 +426,15 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.16892911" side_tool="true" weight="0.5226891" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49773756" weight="0.29459903" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.16892911" side_tool="true" weight="0.5220264" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49773756" weight="0.22061856" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32569557" />
-      <window_info anchor="bottom" id="Database Console" order="13" sideWeight="0.4969834" weight="0.07234727" />
+      <window_info anchor="bottom" id="Database Console" order="13" sideWeight="0.4969834" weight="0.07592191" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.034795765" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.15204236" />
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
     </layout>
     <layout-to-restore>
@@ -435,56 +477,11 @@
       </default-breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MI$views.coverage" NAME="views Coverage Results" MODIFIED="1575634247600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backstage" />
+    <SUITE FILE_PATH="coverage/MI$tests.coverage" NAME="tests Coverage Results" MODIFIED="1575637721329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Muser" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Backstage/templates/backstage/media.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3888" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MI/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-          <folding>
-            <element signature="e#626#658#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Backstage/templates/backstage/tables.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="358" column="28" selection-start-line="358" selection-start-column="20" selection-end-line="361" selection-end-column="26" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Backstage/templates/backstage/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://9a93bc07-d960-48e2-99f5-8a0cfc82af5b/schema/main/table/Backstage_commoditytype">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="a5d9b943-b166-4b2d-aa06-b137ec7abe59">
-          <filtering />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Backstage/templates/backstage/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="41" column="74" selection-start-line="41" selection-start-column="74" selection-end-line="41" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/backstage/images/100.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -496,15 +493,6 @@
           <folding>
             <element signature="n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://9a93bc07-d960-48e2-99f5-8a0cfc82af5b/schema/main/table/Backstage_commodity">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="a52f00fb-fae9-4c39-b1d0-c3e11b200efe">
-          <filtering>
-            <filter text="" />
-          </filtering>
         </state>
       </provider>
     </entry>
@@ -525,13 +513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MI/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Backstage/templatetags/back_tags.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -542,13 +523,6 @@
     <entry file="file://$PROJECT_DIR$/MI/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-91" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Muser/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Backstage/static/backstage/css/style.css">
@@ -657,23 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Backstage/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Backstage/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4752">
-          <caret line="182" column="23" selection-start-line="182" selection-start-column="23" selection-end-line="182" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/ProgramData/Anaconda3/envs/DjangoPath/Lib/site-packages/django/utils/deprecation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2403">
@@ -688,13 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Backstage/templates/backstage/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5535">
-          <caret line="205" column="10" selection-start-line="205" selection-start-column="10" selection-end-line="205" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Backstage/templates/backstage/add_comm.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -702,20 +652,175 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Backstage/models.py">
+    <entry file="file://$PROJECT_DIR$/Backstage/templates/backstage/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+        <state relative-caret-position="1561">
+          <caret line="136" column="36" selection-start-line="136" selection-start-column="36" selection-end-line="136" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Backstage/templates/backstage/comm_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
+        <state relative-caret-position="783">
           <caret line="51" column="58" selection-start-line="51" selection-start-column="58" selection-end-line="51" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backstage/data.json" />
+    <entry file="file://$PROJECT_DIR$/Backstage/xiaomishouye.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
           <folding>
-            <element signature="e#590#622#0#HTML" expanded="true" />
+            <element signature="e#436#1542#0" />
+            <element signature="e#1560#2310#0" />
+            <element signature="e#2318#5239#0" />
+            <element signature="e#2355#2878#0" />
+            <element signature="e#2891#4217#0" />
+            <element signature="e#4235#5235#0" />
+            <element signature="e#5243#7179#0" />
+            <element signature="e#7183#10319#0" />
+            <element signature="e#10323#12083#0" />
+            <element signature="e#12087#14012#0" />
+            <element signature="e#14016#15651#0" />
+            <element signature="e#15655#18410#0" />
+            <element signature="e#18414#20147#0" />
+            <element signature="e#20151#22422#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Muser/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backstage/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="12" selection-start-line="12" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9a93bc07-d960-48e2-99f5-8a0cfc82af5b/schema/main/table/Backstage_commodity">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="95230936-7c8d-4ad9-8673-2106842742c2">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9a93bc07-d960-48e2-99f5-8a0cfc82af5b/schema/main/table/Backstage_commoditytype">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="95230936-7c8d-4ad9-8673-2106842742c2">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backstage/data2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9a93bc07-d960-48e2-99f5-8a0cfc82af5b/schema/main/table/Backstage_goods">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="95230936-7c8d-4ad9-8673-2106842742c2">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backstage/data3.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="2053" column="6" lean-forward="true" selection-start-line="2053" selection-start-column="6" selection-end-line="2053" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Muser/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="13" lean-forward="true" selection-start-line="4" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backstage/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2322">
+          <caret line="185" column="23" selection-start-line="185" selection-start-column="23" selection-end-line="185" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backstage/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="e#1#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blient/static/blient/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blient/static/blient/images/banner2.jpg" />
+    <entry file="file://$PROJECT_DIR$/Blient/static/blient/images/compare.jpg" />
+    <entry file="file://$PROJECT_DIR$/Blient/static/blient/images/ghs.png" />
+    <entry file="file://$PROJECT_DIR$/Blient/static/blient/images/banner.jpg" />
+    <entry file="file://$PROJECT_DIR$/Blient/static/blient/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blient/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blient/templates/blient/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MI/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3537">
+          <caret line="131" column="29" selection-start-line="131" selection-start-column="29" selection-end-line="131" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MI/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blient/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
         </state>
       </provider>
     </entry>

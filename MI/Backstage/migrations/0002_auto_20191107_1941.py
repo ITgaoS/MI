@@ -17,6 +17,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='commodity',
             name='picture',
-            field=models.ImageField(default='backstage/image/11.jpeg', upload_to='backstage/images'),
+            field=models.ImageField(default='backstage/images/11.jpeg', upload_to='backstage/images'),
         ),
     ]

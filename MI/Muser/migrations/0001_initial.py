@@ -22,7 +22,7 @@ class Migration(migrations.Migration):
                 ('phone', models.CharField(blank=True, max_length=12, null=True)),
                 ('age', models.CharField(blank=True, max_length=10, null=True)),
                 ('address', models.CharField(blank=True, max_length=10, null=True)),
-                ('picture', models.ImageField(default='Muser/image/11.jpeg', upload_to='Muser/images')),
+                ('picture', models.ImageField(default='Muser/images/11.jpeg', upload_to='Muser/images')),
             ],
         ),
     ]

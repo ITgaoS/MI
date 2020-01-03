@@ -10,5 +10,5 @@ class User(models.Model):
     phone=models.CharField(max_length=12,null=True,blank=True)
     age=models.CharField(max_length=10,null=True,blank=True)
     address=models.CharField(max_length=10,null=True,blank=True)
-    picture=models.ImageField(upload_to="backstage/images",default="backstage/image/11.jpeg")
+    picture=models.ImageField(upload_to="backstage/images",default="backstage/images/11.jpeg")
 

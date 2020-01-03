@@ -28,7 +28,7 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('type', models.CharField(max_length=32)),
-                ('picture', models.ImageField(default='backstage/image/11.jpeg', upload_to='backstage/images')),
+                ('picture', models.ImageField(default='backstage/images/11.jpeg', upload_to='backstage/images')),
             ],
         ),
         migrations.AddField(
